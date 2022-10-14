@@ -9,6 +9,12 @@ public class App {
     }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        var dummy = new Dummy();
+
+        dummy.doImportantStuff1();
+        dummy.doImportantStuff2();
+        dummy.doImportantStuff3();
+
+        System.out.println("The end");
     }
 }
