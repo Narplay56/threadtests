@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-
 public class ProducerConsumerTest {
     private static final int MIN_ELEMENTS = 0;
     private static final int MAX_ELEMENTS = 5;
@@ -23,7 +22,6 @@ public class ProducerConsumerTest {
                     var nextInt = random.nextInt(0,1000);
                     numbers.add(nextInt);
                     System.out.println("Added " + nextInt);
-                    continue;
                 }
                 else {
                     System.out.println("numbers already has 5 elements");
